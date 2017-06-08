@@ -1,0 +1,16 @@
+<Alloy>
+	<NavigationWindow module="ui">
+		<Window id="community" backgroundColor="white" title="">
+			<Menu id="menu" platform="android">
+				<MenuItem id="mtmLogout" title="L('mainmenu_logout')" onClick="mnuLogoutClicked" />
+			</Menu>
+			<Button id="logoutBtn" platform="ios" onClick="mnuLogoutClicked" title="L('mainmenu_logout')" />
+			<ImageView id="ivCommunities" image="/images/social_graph-512.png" onClick="openCommunities" />
+			<Label id="lblCommunities" onClick="openCommunities" >Communities</Label>
+			<ImageView id="ivMessages" image="/images/messages.jpg" onClick="openStuckMessages" />
+			<Label id="lblStuckMessages" onClick="openStuckMessages" >Messages</Label>
+			<ImageView id="ivCertificates" image="/images/certificates-icon.png" onClick="openExpiringCertificates" />
+			<Label id="lblExpiringCertificates" onClick="openExpiringCertificates" >Certificates</Label>
+		</Window>
+	</NavigationWindow>
+</Alloy>

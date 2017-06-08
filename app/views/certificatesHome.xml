@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="home" class="container" layout="vertical" backgroundColor="white" title="Certificate Management" >
+		<Menu id="menu" platform="android">
+			<MenuItem id="mtmLogout" title="Logout" onClick="mnuLogoutClicked" />
+		</Menu>
+		<ScrollView id="svScrollView" scrollType="vertical" scrollingEnabled="true">
+			<Label id="lblGetAllCertificatesHelp">To view all certificates, press the All Certificates button.</Label>
+			<Button id="btnGetAllCertificates" onClick="btnGetAllCertificatesPressed"> All Certificates </Button> />
+			<Label id="lblGetCertificatesThatWillExpireIn3DaysHelp">To view certificates that will expire within 3 days, press the 3 Days button.</Label>
+			<Button id="btnGetCertificatesThatWillExpireIn3Days" image="/images/3-days.jpg" onClick="btnGetCertificatesThatWillExpireIn3DaysPressed" />
+			<Label id="lblGetCertificatesThatWillExpireIn15DaysHelp">To view certificates that will expire within 15 days, press the 15 Days button.</Label>
+			<Button id="btnGetCertificatesThatWillExpireIn15Days" image="/images/15-days.jpg" onClick="btnGetCertificatesThatWillExpireIn15DaysPressed" />
+			<ActivityIndicator id="activityIndicator" />
+		</ScrollView>
+	</Window>
+</Alloy>

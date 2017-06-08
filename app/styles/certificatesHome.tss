@@ -1,0 +1,132 @@
+".container" : {
+	backgoundColor: 'white',
+}
+"#svScrollView": {
+	top: 0,
+	width: "100%",
+	height: "100%",
+	backgroundColor: "white",
+	opacity: ".93",
+}
+"#lblGetAllCertificatesHelp[formFactor=tablet]": {
+	top: 100,
+	left: 10,
+	color: "blue",
+	font: {
+        fontSize: 24,
+    },
+}
+"#btnGetAllCertificates[formFactor=tablet]": {
+	top: 150,
+	height: Ti.UI.SIZE,
+	width: 200,
+	color: "black",
+	backgroundColor: "white",
+	borderColor: "black",
+	borderRadius: "10",
+	font: {
+        fontSize: 22,
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"#lblGetCertificatesThatWillExpireIn3DaysHelp[formFactor=tablet]": {
+	top: 250,
+	left: 10,
+	color: "blue",
+	font: {
+        fontSize: 24,
+    },
+}
+"#btnGetCertificatesThatWillExpireIn3Days[formFactor=tablet]": {
+	top: 300,
+	backgroundColor: "white",
+	color: 'black',
+	borderRadius: "10",
+	font: {
+        fontSize: 30,
+    },
+}
+"#lblGetCertificatesThatWillExpireIn15DaysHelp[formFactor=tablet]": {
+	top: 600,
+	left: 10,
+	color: "blue",
+	font: {
+        fontSize: 24,
+    },
+}
+"#btnGetCertificatesThatWillExpireIn15Days[formFactor=tablet]": {
+	top: 650,
+	backgroundColor: "white",
+	color: 'black',
+	borderRadius: "10",
+	font: {
+        fontSize: 30,
+    },
+}
+
+//  Handheld
+
+"#lblGetAllCertificatesHelp[formFactor=handheld]": {
+	top: 10,
+	left: 10,
+	color: "blue",
+	font: {
+        fontSize: 18,
+    },
+}
+"#btnGetAllCertificates[formFactor=handheld]": {
+	top: 60,
+	height: Ti.UI.SIZE,
+	width: 200,
+	color: "black",
+	backgroundColor: "white",
+	borderColor: "black",
+	borderRadius: "10",
+	font: {
+        fontSize: 16,
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"#lblGetCertificatesThatWillExpireIn3DaysHelp[formFactor=handheld]": {
+	top: 120,
+	left: 10,
+	color: "blue",
+	font: {
+        fontSize: 18,
+    },
+}
+"#btnGetCertificatesThatWillExpireIn3Days[formFactor=handheld]": {
+	top: 170,
+	backgroundColor: "white",
+	color: 'black',
+	height: 50,
+	borderRadius: "10",
+	font: {
+        fontSize: 24,
+    },
+}
+"#lblGetCertificatesThatWillExpireIn15DaysHelp[formFactor=handheld]": {
+	top: 270,
+	left: 10,
+	color: "blue",
+	font: {
+        fontSize: 18,
+    },
+}
+"#btnGetCertificatesThatWillExpireIn15Days[formFactor=handheld]": {
+	top: 320,
+	backgroundColor: "white",
+	color: 'black',
+	height: 50,
+	borderRadius: "10",
+	font: {
+        fontSize: 24,
+    },
+}
+"#activityIndicator": {
+	top: '50%',
+	left: '50%',
+	style: Ti.UI.ActivityIndicatorStyle.BIG_DARK,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+}

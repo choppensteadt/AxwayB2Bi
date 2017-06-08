@@ -1,0 +1,481 @@
+
+6/7/2017, 5:40:45 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.12.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 6.10.3
+  npm Version                 = 3.10.10
+
+Titanium CLI
+  CLI Version                 = 5.0.14
+
+Titanium SDK
+  SDK Version                 = 6.1.0.GA
+  SDK Path                    = /Users/choppensteadt/Library/Application Support/Titanium/mobilesdk/osx/6.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/choppensteadt/.appcelerator/install/6.2.2/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 6.1.0.GA --project-dir /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement --target simulator --ios-version 10.3 --device-family iphone --device-id BDA53BE1-C046-487B-9E18-1BB146A22A0A --skip-js-minify --build-type production --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49440 --config-file /var/folders/p5/m32tdds14kqdwh0qhhfplx3c0000gp/T/build-1496882442721.json --no-banner --project-dir /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID BDA53BE1-C046-487B-9E18-1BB146A22A0A
+[TRACE]  [ioslib] Found iOS Simulator UDID BDA53BE1-C046-487B-9E18-1BB146A22A0A
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
+[TRACE]  [ioslib]   UDID    = BDA53BE1-C046-487B-9E18-1BB146A22A0A
+[TRACE]  [ioslib]   iOS     = 10.3
+[TRACE]  [ioslib] Autoselected Xcode: 8.3.2
+[DEBUG]  Detecting modules in /Users/choppensteadt/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.5 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected android module: com.appcelerator.apm 2.0.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/2.0.0
+[DEBUG]  Detected android module: facebook 6.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/facebook/6.1.0
+[DEBUG]  Detected android module: hyperloop 1.2.8 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/hyperloop/1.2.8
+[DEBUG]  Detected android module: hyperloop 2.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/hyperloop/2.1.0
+[DEBUG]  Detected android module: hyperloop 2.1.1 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/hyperloop/2.1.1
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/ti.cloudpush/4.0.3
+[DEBUG]  Detected android module: ti.map 3.0.1 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/ti.map/3.0.1
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/android/ti.touchid/2.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.5 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected iphone module: com.appcelerator.apm 2.0.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/2.0.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.1.0
+[DEBUG]  Detected iphone module: facebook 5.4.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/facebook/5.4.0
+[DEBUG]  Detected iphone module: hyperloop 1.2.8 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
+[DEBUG]  Detected iphone module: hyperloop 2.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/hyperloop/2.1.0
+[DEBUG]  Detected iphone module: hyperloop 2.1.1 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/hyperloop/2.1.1
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.1 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.1
+[DEBUG]  Detected iphone module: ti.map 2.9.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/ti.map/2.9.0
+[DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
+[DEBUG]  Detected iphone module: ti.touchid 2.1.2 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.2
+[DEBUG]  Detected windows module: hyperloop 2.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/windows/hyperloop/2.1.0
+[DEBUG]  Detected windows module: hyperloop 2.1.1 @ /Users/choppensteadt/Library/Application Support/Titanium/modules/windows/hyperloop/2.1.1
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=development path=/Users/choppensteadt/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detecting plugins in /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Users/choppensteadt/Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ /Users/choppensteadt/Library/Application Support/Titanium/plugins/com.appcelerator.test
+[DEBUG]  Detected plugin: hyperloop 1.2.8 @ /Users/choppensteadt/Library/Application Support/Titanium/plugins/hyperloop/1.2.8
+[DEBUG]  Detected plugin: hyperloop 2.1.0 @ /Users/choppensteadt/Library/Application Support/Titanium/plugins/hyperloop/2.1.0
+[DEBUG]  Detected plugin: hyperloop 2.1.1 @ /Users/choppensteadt/Library/Application Support/Titanium/plugins/hyperloop/2.1.1
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Checking if log server port 40256 is available
+[DEBUG]  Log server port 40256 is in use, testing if it's the app we're building
+[DEBUG]  The log server port is being used by the app being built, continuing
+[DEBUG]  Titanium SDK iOS directory: /Users/choppensteadt/Library/Application Support/Titanium/mobilesdk/osx/6.1.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 10.3
+[INFO]   Building for iOS Simulator: iPhone 7 Plus
+[DEBUG]  UDID: BDA53BE1-C046-487B-9E18-1BB146A22A0A
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 10.3
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 8.0
+[INFO]   Logging enabled on port 40256
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/choppensteadt/.appcelerator/install/6.2.2/package/node_modules/alloy/bin/alloy compile /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/app --config platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.9.11 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = iphone
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement
+[DEBUG]  app path = /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "theme": "axway",
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/choppensteadt/.appcelerator/install/6.2.2/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  
+[TRACE]  Generating ../../../../../../Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/choppensteadt/.appcelerator/install/6.2.2/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/app/assets
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/app/lib
+[TRACE]  Copying SRC_DIR/ui.js --> Resources/iphone/ui.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/app/themes/axway/assets
+[TRACE]  
+[DEBUG]  Resetting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/i18n
+[DEBUG]  Writing /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/i18n/de/strings.xml
+[DEBUG]  Writing /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/i18n/en/strings.xml
+[DEBUG]  Writing /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/i18n/es/strings.xml
+[DEBUG]  Writing /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/i18n/fr/strings.xml
+[DEBUG]  Writing /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/i18n/nl/strings.xml
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [certificates.xml] view processing...
+[INFO]   style:      "certificates.tss"
+[INFO]   view:       "certificates.xml"
+[INFO]   controller: "certificates.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/certificates.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/certificates.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/certificates.js"
+[INFO]   [certificatesHome.xml] view processing...
+[INFO]   style:      "certificatesHome.tss"
+[INFO]   view:       "certificatesHome.xml"
+[INFO]   controller: "certificatesHome.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/certificatesHome.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/certificatesHome.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/certificatesHome.js"
+[INFO]   [communities.xml] view processing...
+[INFO]   style:      "communities.tss"
+[INFO]   view:       "communities.xml"
+[INFO]   controller: "communities.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/communities.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/communities.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/communities.js"
+[INFO]   [communityDetail.xml] view processing...
+[INFO]   style:      "communityDetail.tss"
+[INFO]   view:       "communityDetail.xml"
+[INFO]   controller: "communityDetail.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/communityDetail.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/communityDetail.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/communityDetail.js"
+[INFO]   [contact.xml] view processing...
+[INFO]   style:      "contact.tss"
+[INFO]   view:       "contact.xml"
+[INFO]   controller: "contact.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/contact.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/contact.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/contact.js"
+[INFO]   [home.xml] view processing...
+[INFO]   style:      "home.tss"
+[INFO]   view:       "home.xml"
+[INFO]   controller: "home.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/home.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/home.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/home.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [login.xml] view processing...
+[INFO]   style:      "login.tss"
+[INFO]   view:       "login.xml"
+[INFO]   controller: "login.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/login.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/login.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/login.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/ui.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [1.24691s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 1.24691s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  offline build file /var/folders/p5/m32tdds14kqdwh0qhhfplx3c0000gp/T/build-49322ba10b2e478abaab2a601feb40400109ce36.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 3055.066 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/AxwayB2BCommunityManagement.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/AxwayB2BCommunityManagement.entitlements
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/AxwayB2BCommunityManagement_Prefix.pch
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/AxwayB2BCommunityManagement.xcodeproj/xcshareddata/xcschemes/AxwayB2BCommunityManagement.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/debugger.plist
+[DEBUG]  Skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Analyzing CommonJS module: ti.cloud
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 58x58 app icon: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 80x80 app icon: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape@2x.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait@2x.png
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   Creating assets image set
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/7c5789456625836009d99ebcc64eca89ec5923c2.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/3304a2df99c8ba2a4439c3cb5706cbd3ee9ea61e.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/0f653336b311398ac4c3ce5cab560e254b116043.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/73dff9cfda593907cc4109ddc5fd218a89a931c2.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/6636364b5306b090c819018faeb3c0c6b8f82d1f.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/2df9eff052c2502adedee7dc65dba6119d0af607.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/1a19e8e4bcc289f6c236188bd244ad66ddfaf983.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/482d7350a74c119748af588afd6a6b98d6c32f2f.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/e374ccb00bf433ab892cfff2fa036b30c7430073.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/bbdca32acc8d78fb340c50029afd86a27c8b4375.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/79145b3be7f209be6fe1194032826433298c77c4.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/b12879ad33dd62b9034483a72b332c53560e98ee.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/8034bee277ecc3e8937d4e40bf8c19ee84ac1a48.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/f7315b33fe93a41c0f46c5f274a9866722acda94.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/e043e6ad4b22dcc709c6986389680789aac85a95.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/a1e04001c88ca1c74419ce30713fd7968e97065d.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/d407f31a78eddb6c22d9219b6a122cf0c04b692c.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/98415513d326e3477a7b185d11a88470f561ac95.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/6f1f0729ef3d5ab0a39f52c97361e3f0f124b634.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/fc53afb4fc8f4572aa17fc513ec6e8af9a5a2d06.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/c8192c4c66de0bd4f0d78410ec4333cdb7b5a199.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/4f1420cdc34eb128da88147ed30712dd5b58fe0a.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/06ac40bcaf913a928f71a061e1dbd4b7d31b069b.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/eded76c12d3e1498b5b042283dff1228f4e3458d.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/31b756c6571620e7181b987d4e92a7547233dfba.imageset/Contents.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/2ab416ff62c08124fa7c07a85a8be0a1971b002c.imageset/Contents.json
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navApplicationDelivery.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navApplicationPickup.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navArrowGrayRight.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navCertificates.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navContact.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navInternet.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navRoutingIds.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navTradingPartners.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/navTradingPickup.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/necessary.gif
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/images/required.gif
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/platform/ios/alloy_generated => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/alloy_generated
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/ti.cloud/LICENSE
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/ti.cloud/manifest
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/ti.cloud/package.json
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/7c5789456625836009d99ebcc64eca89ec5923c2.imageset/15-days.jpg
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/3304a2df99c8ba2a4439c3cb5706cbd3ee9ea61e.imageset/3-days.jpg
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/0f653336b311398ac4c3ce5cab560e254b116043.imageset/Axway_logo_tag_vert_rev_rgb.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/73dff9cfda593907cc4109ddc5fd218a89a931c2.imageset/Icon_data-exchange.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/6636364b5306b090c819018faeb3c0c6b8f82d1f.imageset/add.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/2df9eff052c2502adedee7dc65dba6119d0af607.imageset/alert.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/1a19e8e4bcc289f6c236188bd244ad66ddfaf983.imageset/certificate.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/482d7350a74c119748af588afd6a6b98d6c32f2f.imageset/certificates-icon.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/e374ccb00bf433ab892cfff2fa036b30c7430073.imageset/community.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/bbdca32acc8d78fb340c50029afd86a27c8b4375.imageset/contact.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/79145b3be7f209be6fe1194032826433298c77c4.imageset/default-icon.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/b12879ad33dd62b9034483a72b332c53560e98ee.imageset/default.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/8034bee277ecc3e8937d4e40bf8c19ee84ac1a48.imageset/delete.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/f7315b33fe93a41c0f46c5f274a9866722acda94.imageset/email.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/e043e6ad4b22dcc709c6986389680789aac85a95.imageset/flip_horizontal-512.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/a1e04001c88ca1c74419ce30713fd7968e97065d.imageset/focus.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/d407f31a78eddb6c22d9219b6a122cf0c04b692c.imageset/help.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/98415513d326e3477a7b185d11a88470f561ac95.imageset/icon03AllDataAndDocumentTypes.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/6f1f0729ef3d5ab0a39f52c97361e3f0f124b634.imageset/login_background.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/fc53afb4fc8f4572aa17fc513ec6e8af9a5a2d06.imageset/messages.jpg
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/c8192c4c66de0bd4f0d78410ec4333cdb7b5a199.imageset/messages.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/4f1420cdc34eb128da88147ed30712dd5b58fe0a.imageset/partner.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/06ac40bcaf913a928f71a061e1dbd4b7d31b069b.imageset/pickup.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/eded76c12d3e1498b5b042283dff1228f4e3458d.imageset/routing.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/31b756c6571620e7181b987d4e92a7547233dfba.imageset/social_graph-512.png
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Assets.xcassets/2ab416ff62c08124fa7c07a85a8be0a1971b002c.imageset/timeline.jpg
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/.liveviewapp.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/.liveviewapp.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/CFG.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/CFG.js
+[DEBUG]  Overwriting /var/folders/p5/m32tdds14kqdwh0qhhfplx3c0000gp/T/liveview.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/app.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/backbone.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/backbone.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/constants.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/constants.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/BaseController.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/BaseController.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/certificates.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/certificates.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/certificatesHome.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/certificatesHome.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/communities.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/communities.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/communityDetail.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/communityDetail.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/contact.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/contact.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/home.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/home.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/index.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/index.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/controllers/login.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/controllers/login.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/certificates.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/certificates.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/certificatesHome.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/certificatesHome.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/communities.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/communities.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/communityDetail.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/communityDetail.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/contact.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/contact.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/home.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/home.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/index.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/index.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/styles/login.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/styles/login.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/sync/localStorage.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/sync/localStorage.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/sync/properties.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/sync/properties.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/sync/sql.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/sync/sql.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/underscore.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/underscore.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy/widget.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy/widget.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/alloy.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/alloy.js
+[DEBUG]  Overwriting /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/Resources/iphone/ui.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/ui.js
+[DEBUG]  Overwriting /Users/choppensteadt/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11/ti.cloud.js => /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/ti.cloud/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  Processing i18n file: de/strings.xml
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: es/strings.xml
+[DEBUG]  Processing i18n file: fr/strings.xml
+[DEBUG]  Processing i18n file: nl/strings.xml
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/de.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/en.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/es.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/fr.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app/nl.lproj/Localizable.strings
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing /Users/choppensteadt/Syncplicity Folders/GitHub/AxwayB2BiCommunityManagement/build/iphone/build/Products/Debug-iphonesimulator/AxwayB2BCommunityManagement.app.dSYM.tar.gz
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 3s 320ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 7 Plus
+[TRACE]  [ioslib]   UDID    = BDA53BE1-C046-487B-9E18-1BB146A22A0A
+[TRACE]  [ioslib]   iOS     = 10.3
+[TRACE]  [ioslib] Autoselected Xcode: 8.3.2
+[TRACE]  [ioslib] Checking if simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
+[TRACE]  [ioslib] Simulator is running (pid 8656)
+[TRACE]  [ioslib] Simulator is booted!
+[TRACE]  [ioslib] iPhone 7 Plus Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 7 Plus Simulator system log: /Users/choppensteadt/Library/Logs/CoreSimulator/BDA53BE1-C046-487B-9E18-1BB146A22A0A/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/choppensteadt/Library/Application Support/Titanium/mobilesdk/osx/6.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 7 Plus Simulator successfully focused
+[TRACE]  [ioslib] Installing the app
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Trying to connect to log server port 40256...

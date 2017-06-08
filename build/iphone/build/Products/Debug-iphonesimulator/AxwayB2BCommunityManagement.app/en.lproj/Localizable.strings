@@ -1,0 +1,42 @@
+/**
+ * Appcelerator Titanium
+ * this is a generated file - DO NOT EDIT
+ */
+
+"mainmenu_logout" = "Logout";
+"product_name" = "Axway B2Bi";
+"welcome_message" = "Welcome.";
+"login" = "Sign in";
+"username" = "Username";
+"password" = "Password";
+"remember" = "Remember me";
+"communities_title" = " Communities";
+"community_detail_contacts_search_hint_text" = "Search Contacts";
+"community_detail_certicates_search_hint_text" = "Search Certificates";
+"community_detail_routingIds_search_hint_text" = "Search Routing IDs";
+"community_detail_app_deliveries_search_hint_text" = "Search Application Deliveries";
+"community_detail_app_pickups_search_hint_text" = "Search Application Pickups";
+"community_detail_trading_pickups_search_hint_text" = "Search Trading Pickups";
+"community_detail_trading_partners_search_hint_text" = "Search Trading Partners";
+"add_contact" = "+ Add Contact";
+"notification_dialog_title" = "Certificate Expiry Notification";
+"notification_dialog_message" = "Would you like to a notification of impending certificate expiry to the primary contact of this community?";
+"notification_dialog_send" = "Send";
+"notification_dialog_cancel" = "Cancel";
+"notification_email_dialog_subject" = "Notice of Impending Certificate Expiry";
+"notification_email_dialog_body" = "One or more private certificates being used to sign and/or encrypt your B2B messages is set to expire within 31 days. \n \n To avoid B2B processing delays, please visit us at https://www.axway.com/en/enterprise-solutions/ecosystem-engagement to update your certificate. \n \n Best regards, \n \n Axway B2B Support Team";
+"contact_name_hint" = "name";
+"contact_title_hint" = "title";
+"contact_phone_hint" = "phone number";
+"contact_email_hint" = "email address";
+"contact_notes_hint" = "notes";
+"contact_make_primary_contact" = "Primary Contact";
+"contact_delete_button" = "DELETE";
+"contact_save_button" = "SAVE";
+"contact_edit_button" = "EDIT";
+"contact_cancel_button" = "CANCEL";
+"contact_close_button" = "CLOSE";
+"delete_contact_dialog_title" = "Delete Contact";
+"delete_contact_dialog_message" = "Are you sure that you want to delete this contact. This action cannot be undone.";
+"delete_contact_dialog_yes" = "DELETE";
+"delete_contact_dialog_cancel" = "CANCEL";

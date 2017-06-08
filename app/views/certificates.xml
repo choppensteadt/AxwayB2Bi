@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="userprofile" backgroundColor="#E9EAEA" title="Axway B2Bi">
+		<Menu id="menu" platform="android">
+			<MenuItem id="mtmLogout" title="Logout" onClick="mnuLogoutClicked" />
+		</Menu>
+		<Button id="btnAddCert" onClick="notifyCertificateHolderOfPendingExpiry">Notify Cert Owners</Button>/>
+		<Label id="lblCurrentCerts">Certificates</Label>
+		<ListView id="lvwCertificates" canScroll="true" showVerticalScrollIndicator="true" >
+            <Templates>
+                <ItemTemplate id="certDetailTemplate" height="80" name="certDetailTemplate" >
+                	<ImageView bindId="leftimage" id="label_leftimage"/>
+                    <Label bindId="certName" id="label_certName" />
+                    <Label bindId="certDetails" id="label_certDetails" />
+                    <Label bindId="certDte" id="label_certDte" visible="false" />
+                    <ImageView bindId="notificationSentYesNo" id="label_notificationSentYesNo" />
+                </ItemTemplate>
+            </Templates>
+            <ListSection id="certListSection" >
+            	<ListItem id="certListItem" />
+            </ListSection>
+        </ListView>
+        <ActivityIndicator id="activityIndicator" />
+	</Window>
+</Alloy>

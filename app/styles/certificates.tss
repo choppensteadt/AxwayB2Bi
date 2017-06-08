@@ -1,0 +1,122 @@
+"Window": {
+	backgroundColor: '#E9EAEA'
+}
+"#btnAddCert[formFactor=tablet]": {
+	top: 10,
+	right: 10,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "white",
+	backgroundColor: "#407CA0",
+	borderRadius: "5",
+	font: {
+        fontSize: 22,
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"#btnAddCert[formFactor=handheld]": {
+	top: 10,
+	right: 10,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "white",
+	backgroundColor: "#407CA0",
+	borderRadius: "5",
+	font: {
+        fontSize: 14,
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"#lblCurrentCerts[formFactor=tablet]": {
+    top: 80,
+    height: Ti.UI.SIZE,
+    width: '100%',
+    backgroundColor: '#989998',
+    color: 'white',
+    opacity: '.9',
+    textAlign: 'center',
+    font: {
+    	fontSize: 22,
+    	fontFamily: 'OpenSans-Regular',
+    }
+}
+"#lblCurrentCerts[formFactor=handheld]": {
+    top: 80,
+    height: Ti.UI.SIZE,
+    width: '100%',
+    backgroundColor: '#989998',
+    color: 'white',
+    opacity: '.9',
+    textAlign: 'center',
+    font: {
+    	fontSize: 16,
+    	fontFamily: 'OpenSans-Regular',
+    }
+}
+"#lvwCertificates[formFactor=tablet]":{
+	top: 100,
+}
+"#lvwCertificates[formFactor=handheld]":{
+	top: 100,
+}
+"#label_leftimage[formFactor=tablet]": {
+	left: 6,
+	width: 48,
+	height: 48
+}
+"#label_leftimage[formFactor=handheld]": {
+	left: 6,
+	width: 48,
+	height: 48
+}
+"#label_certName[formFactor=tablet]": {
+	top: 10,
+	left: 60,
+	font: {
+		fontWeight: 'bold',
+		fontSize: 22,
+  		fontFamily: 'OpenSans-Regular',
+	}
+}
+"#label_certName[formFactor=handheld]": {
+	top: 10,
+	left: 60,
+	font: {
+		fontWeight: 'bold',
+		fontSize: 22,
+  		fontFamily: 'OpenSans-Regular',
+	}
+}
+"#label_certDetails[formFactor=tablet]": {
+	top: 40,
+	left: 60,
+	font: {
+        fontSize: 20,
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"#label_certDetails[formFactor=handheld]": {
+	top: 40,
+	left: 60,
+	font: {
+        fontSize: 20,
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"#label_notificationSentYesNo[formFactor=tablet]": {
+	right: 6,
+	width: 48,
+	height: 48
+}
+"#label_notificationSentYesNo[formFactor=handheld]": {
+	right: 6,
+	width: 48,
+	height: 48
+}
+"#activityIndicator": {
+	top: '50%',
+	left: '50%',
+	style: Ti.UI.ActivityIndicatorStyle.BIG_DARK,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+}

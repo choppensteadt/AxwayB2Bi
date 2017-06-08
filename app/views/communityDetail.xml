@@ -1,0 +1,134 @@
+<Alloy>
+	<Window id="communityDetail" layout="vertical" backgroundColor="white" title="Community Detail" >
+		<Menu id="menu" platform="android">
+			<MenuItem id="mtmLogout" title="L('mainmenu_logout')" onClick="mnuLogoutClicked" />
+		</Menu>
+		<ScrollView id="svScrollView" scrollType="vertical" scrollingEnabled="true">
+			<Label id="lblAppDescription" />
+			<Label id="lblCommunityInformation" />
+			<ImageView id="ivGetCommunityContacts" image="/images/navContact.gif" onClick="getCommunityContacts" />
+			<ImageView id="ivGetCommunityCertificates" image="/images/navCertificates.gif" onClick="getCommunityCertificates" />
+			<ImageView id="ivGetCommunityRoutingIds" image="/images/navRoutingIds.gif" onClick="getCommunityRoutingIds" />
+			<ImageView id="ivGetApplicationDeliveries" image="/images/navApplicationDelivery.gif" onClick="getApplicationDeliveries" />
+			<ImageView id="ivGetApplicationPickups" image="/images/navApplicationPickup.gif" onClick="getApplicationPickups" />
+			<ImageView id="ivGetCommunityTradingPickups" image="/images/navTradingPickup.gif" onClick="getCommunityTradingPickups" />
+			<ImageView id="ivArrowRight" image="/images/navArrowGrayRight.gif" />
+			<ImageView id="ivCloud" image="/images/navInternet.gif" />
+			<ImageView id="ivGetCommunityTradingPartners" image="/images/navTradingPartners.gif" onClick="getCommunityTradingPartners" />
+			<Label id="lblNumberOfTradingPartners" />
+	        <ListView id="lvwContacts" onItemclick="openContactDetail" caseInsensitiveSearch="true" headerView="searchView" footerView="footerView" backgroundColor="#E9EAEA" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="contactDetailTemplate" height="80" name="contactDetailTemplate" >
+						<Label bindId="contactId" id="label_contactId" visible="false" />
+	                	<ImageView bindId="contactLeftImage" id="label_contactLeftImage"/>
+	                    <Label bindId="contactName" id="label_contactName" />
+	                    <Label bindId="contactEmail" id="label_contactEmail" />
+	                    <Label bindId="contactPhone" id="label_contactPhone" />
+						<ImageView bindId="primaryRightImage" id="label_primaryRightImage"/>
+	                </ItemTemplate>
+	            </Templates>
+				<SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_contacts_search_hint_text')" />
+	            <ListSection id="contactListSection" >
+	            	<ListItem id="contactListItem" height="20" />
+	            </ListSection>
+	            <FooterView id="footerView">
+	            	<Label id="addContact" onClick="addContact" text="L('add_contact')" />
+				</FooterView>
+	        </ListView>
+			<ListView id="lvwCertificates" caseInsensitiveSearch="true" headerView="searchView" backgroundColor="#E9EAEA" onItemclick="alertNotifyOfPendingYN" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="certDetailTemplate" height="80" name="certDetailTemplate" >
+	                	<ImageView bindId="certificateLeftImage" id="label_certificateLeftImage"/>
+	                    <Label bindId="certName" id="label_certName" />
+	                    <Label bindId="certState" id="label_certState" />
+	                    <Label bindId="certUsage" id="label_certUsage" />
+                	    <Label bindId="certExpirationDate" id="label_certExpirationDate" />
+						<ImageView bindId="certificateRightImage" id="label_certificateRightImage" />
+	                </ItemTemplate>
+	            </Templates>
+	            <SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_certicates_search_hint_text')" />
+	            <ListSection id="certListSection" >
+	            	<ListItem id="certListItem" />
+	            </ListSection>
+	        </ListView>
+	   		<ListView id="lvwRoutingIds" caseInsensitiveSearch="true" headerView="searchView" backgroundColor="#E9EAEA" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="RoutingIdDetailTemplate" height="80" name="routingIdDetailTemplate" >
+	                	<Label bindId="routingIdId" id="label_routingIdId" visible="false" />
+	                	<ImageView bindId="routingIdLeftImage" id="label_routingIdLeftImage"/>
+	                    <Label bindId="routingId" id="label_routingId" />
+	                	<ImageView bindId="routingIdRightImage" id="label_routingIdRightImage"/>
+	                </ItemTemplate>
+	            </Templates>
+				<SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_routingIds_search_hint_text')" />
+	            <ListSection id="routingIdListSection" >
+	            	<ListItem id="routingIdListItem" />
+	            </ListSection>
+	        </ListView>
+	      	<ListView id="lvwAppDeliveries" caseInsensitiveSearch="true" headerView="searchView" backgroundColor="#E9EAEA" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="appDeliveryTemplate" height="80" name="appDeliveryTemplate" >
+	                	<ImageView bindId="appDeliveryLeftImage" id="label_appDeliveryLeftImage"/>
+	                    <Label bindId="appDeliveryId" id="label_appDeliveryId" visible="false" />
+	                    <Label bindId="appDeliveryName" id="label_appDeliveryName" />
+						<Label bindId="appDeliveryProtocol" id="label_appDeliveryProtocol" />
+						<Label bindId="appDeliveryTransport" id="label_appDeliveryTransport" />
+						<Label bindId="appDeliveryUrl" id="label_appDeliveryUrl" visible="false" />
+					</ItemTemplate>
+	            </Templates>
+	            <SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_app_deliveries_search_hint_text')" />
+	            <ListSection id="appDeliveryListSection" >
+	            	<ListItem id="appDeliveryListItem" />
+	            </ListSection>
+	        </ListView>
+	       	<ListView id="lvwAppPickups" caseInsensitiveSearch="true" headerView="searchView" backgroundColor="#E9EAEA" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="appPickupTemplate" height="80" name="appPickupTemplate" >
+	                    <ImageView bindId="appPickupLeftImage" id="label_appPickupLeftImage"/>
+	                    <Label bindId="appPickupId" id="label_appPickupId" visible="false" />
+	                    <Label bindId="appPickupName" id="label_appPickupName" />
+						<Label bindId="appPickupProtocol" id="label_appPickupProtocol" visible="false" />
+						<Label bindId="appPickupTransport" id="label_appPickupTransport" />
+						<Label bindId="appPickupUrl" id="label_appPickupUrl" visible="false" />
+	                </ItemTemplate>
+	            </Templates>
+				<SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_app_pickups_search_hint_text')" />
+	            <ListSection id="appPickupListSection" >
+	            	<ListItem id="appPickupListItem" />
+	            </ListSection>
+	        </ListView>
+	        <ListView id="lvwTradingPickups" caseInsensitiveSearch="true" headerView="searchView" backgroundColor="#E9EAEA" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="tradingPickupTemplate" height="80" name="tradingPickupTemplate" >
+	                	<ImageView bindId="tradingPickupLeftImage" id="label_tradingPickupLeftImage"/>
+	                    <Label bindId="tradingPickupId" id="label_tradingPickupId" visible="false" />
+	                    <Label bindId="tradingPickupName" id="label_tradingPickupName" />
+						<Label bindId="tradingPickupProtocol" id="label_tradingPickupProtocol" />
+						<Label bindId="tradingPickupUrl" id="label_tradingPickupUrl" />
+	                </ItemTemplate>
+	            </Templates>
+				<SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_trading_pickups_search_hint_text')" />
+	            <ListSection id="tradingPickupListSection" >
+	            	<ListItem id="tradingPickupListItem" />
+	            </ListSection>
+	        </ListView>
+	        <ListView id="lvwTradingPartners" caseInsensitiveSearch="true" headerView="searchView" backgroundColor="#E9EAEA" canScroll="true" showVerticalScrollIndicator="true" >
+	            <Templates>
+	                <ItemTemplate id="tradingPartnerDetailTemplate" height="80" name="tradingPartnerDetailTemplate" >
+	                	<ImageView bindId="tradingPartnerLeftImage" id="label_tradingPartnerLeftImage"/>
+	                	<Label bindId="tradingPartnerId" id="label_tradingPartnerId" visible="false" />
+	                    <Label bindId="tradingPartnerName" id="label_tradingPartnerName" />
+						<Label bindId="tradingPartnerPrimaryContactName" id="label_tradingPartnerPrimaryContactName" />
+						<Label bindId="tradingPartnerPrimaryContactEmail" id="label_tradingPartnerPrimaryContactEmail" />
+						<Label bindId="tradingPartnerDefaultRoutingId" id="label_tradingPartnerDefaultRoutingId" />
+	                </ItemTemplate>
+	            </Templates>
+	            <SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="L('community_detail_trading_partners_search_hint_text')" />
+	            <ListSection id="tradingPartnerListSection" >
+	            	<ListItem id="tradingPartnerListItem" />
+	            </ListSection>
+	        </ListView>
+			<ActivityIndicator id="activityIndicator" />
+		</ScrollView>
+	</Window>
+</Alloy>

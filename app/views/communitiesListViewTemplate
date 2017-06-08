@@ -1,0 +1,11 @@
+<Templates>
+    <ItemTemplate id="communityDetailTemplate" height="80" name="communityDetailTemplate" >
+    	<ImageView bindId="leftimage" id="label_leftimage" />
+        <Label bindId="communityName" id="label_communityName" />
+        <Label bindId="primaryContact" id="label_primaryContact" />
+        <Label bindId="communityId" id="label_communityId" visible="false" />
+		<Label bindId="defaultRoutingIdId" id="label_defaultRoutingIdId" visible="false" />
+		<Label bindId="primaryContactId" id="label_primaryContactId" visible="false" />
+        <ImageView bindId="notificationSentYesNo" id="label_notificationSentYesNo" />
+    </ItemTemplate>
+</Templates>

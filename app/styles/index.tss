@@ -1,0 +1,10 @@
+".container[platform=android]": {
+	backgroundColor:"white"
+}
+
+"Label[platform=android]": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+

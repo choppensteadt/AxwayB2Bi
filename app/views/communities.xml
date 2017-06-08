@@ -1,0 +1,42 @@
+<Alloy>
+	<Window id="community" backgroundColor="white" title="Communities">
+		<Menu id="menu" platform="android">
+			<MenuItem id="mtmLogout" title="L('mainmenu_logout')" onClick="mnuLogoutClicked" />
+		</Menu>
+		<ListView id="lvwCommunities" platform="android" searchView="searchView" caseInsensitiveSearch="true" onItemclick="openCommunityDetail" canScroll="true" showVerticalScrollIndicator="true" >
+            <Templates>
+                <ItemTemplate id="communityDetailTemplate" height="80" name="communityDetailTemplate" >
+                	<ImageView bindId="leftimage" id="label_leftimage" />
+                    <Label bindId="communityName" id="label_communityName" />
+                    <Label bindId="primaryContact" id="label_primaryContact" />
+                    <Label bindId="communityId" id="label_communityId" visible="false" />
+					<Label bindId="defaultRoutingIdId" id="label_defaultRoutingIdId" visible="false" />
+					<Label bindId="primaryContactId" id="label_primaryContactId" visible="false" />
+                    <ImageView bindId="notificationSentYesNo" id="label_notificationSentYesNo" />
+                </ItemTemplate>
+            </Templates>
+			<SearchView id="searchView" ns="Ti.UI.Android" platform="android" hintText="Search Communities" />
+            <ListSection id="communityListSection" >
+            	<ListItem id="communityListItem" />
+            </ListSection>
+        </ListView>
+        <ListView id="lvwCommunities" platform="ios" searchView="searchBar" caseInsensitiveSearch="true" onItemclick="openCommunityDetail" canScroll="true" showVerticalScrollIndicator="true" >
+            <Templates>
+                <ItemTemplate id="communityDetailTemplate" height="80" name="communityDetailTemplate" >
+                	<ImageView bindId="leftimage" id="label_leftimage" />
+                    <Label bindId="communityName" id="label_communityName" />
+                    <Label bindId="primaryContact" id="label_primaryContact" />
+                    <Label bindId="communityId" id="label_communityId" visible="false" />
+					<Label bindId="defaultRoutingIdId" id="label_defaultRoutingIdId" visible="false" />
+					<Label bindId="primaryContactId" id="label_primaryContactId" visible="false" />
+                    <ImageView bindId="notificationSentYesNo" id="label_notificationSentYesNo" />
+                </ItemTemplate>
+            </Templates>
+			<SearchBar id="searchBar" platform="ios" showCancel="true" hintText="Search Communities" />
+            <ListSection id="communityListSection" >
+            	<ListItem id="communityListItem" />
+            </ListSection>
+        </ListView>
+        <ActivityIndicator id="activityIndicator" />
+	</Window>
+</Alloy>

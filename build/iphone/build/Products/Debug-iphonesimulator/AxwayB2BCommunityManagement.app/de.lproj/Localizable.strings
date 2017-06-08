@@ -1,0 +1,20 @@
+/**
+ * Appcelerator Titanium
+ * this is a generated file - DO NOT EDIT
+ */
+
+"mainmenu_logout" = "Abmelden";
+"product_name" = "Axway B2Bi";
+"welcome_message" = "Willkommen.";
+"login" = "Anmelden";
+"username" = "Benutzername";
+"password" = "Passwort";
+"remember" = "Erinnere dich an mich";
+"communities_title" = " Gemeinschaften";
+"community_detail_contacts_tab_label" = " Kontakte";
+"community_detail_cert_tab_label" = " Zertifikate";
+"community_detail_routingIds_tab_label" = " Routing IDs";
+"community_detail_app_deliveries_tab_label" = " Anwendung Lieferungen";
+"community_detail_app_pickups_tab_label" = " Bewerbungsunterlagen";
+"community_detail_trading_pickups_tab_label" = " Trading Abholen";
+"community_detail_trading_partners_tab_label" = " Handelspartner";

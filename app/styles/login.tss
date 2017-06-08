@@ -1,0 +1,254 @@
+///////////////////////////
+// Global Style
+///////////////////////////
+
+".container": {
+	backgroundImage: "/images/login_background.png",
+}
+
+
+///////////////////////////
+// Android Style
+///////////////////////////
+
+"#activityIndicator[platform=android]": {
+	top: '50%',
+	left: '50%',
+	style: Ti.UI.ActivityIndicatorStyle.BIG_DARK,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+}
+
+
+///////////////////////////
+// Android Handheld Style
+///////////////////////////
+
+"#svScrollView[platform=android formFactor=handheld]": {
+	top: 20,
+	width: "80%",
+	height: "90%",
+	backgroundColor: "white",
+	opacity: ".93",
+	borderRadius: "10",
+}
+"#vwLoginView[platform=android formFactor=handheld]": {
+	width: Ti.UI.SIZE,
+}
+"#lblProductName[platform=android formFactor=handheld]": {
+	height: 50,
+	width: "100%",
+	top: 0,
+	color: "white",
+	backgroundColor: "#3d4051",
+	textAlign: "center",
+	font: {
+        fontSize: '22',
+    },
+}
+
+
+///////////////////////////
+// Android Tablet Style
+///////////////////////////
+
+"#svScrollView[platform=android formFactor=tablet]": {
+	top: 50,
+	width: "80%",
+	height: 480,
+	backgroundColor: "white",
+	opacity: ".93",
+	borderRadius: "10",
+}
+"#vwLoginView[platform=android formFactor=tablet]": {
+	width: Ti.UI.SIZE,
+}
+"#lblProductName[platform=android formFactor=tablet]": {
+	height: 90,
+	width: "100%",
+	top: 0,
+	color: "white",
+	backgroundColor: "#3d4051",
+	textAlign: "center",
+	font: {
+        fontSize: '28',
+    },
+}
+"#imgAxwayLogo[platform=android formFactor=tablet]": {
+	height: 70,
+	left: 10,
+	top: 10,
+	image: "/images/Axway_logo_tag_vert_rev_rgb.png",
+}
+
+"#txtHostIP[platform=android formFactor=tablet]": {
+	top: 165,
+	width: 200,
+	borderColor: "black",
+	backgroundColor: "white",
+	backgroundFocusedColor: "white",
+	hintText: "URL",
+	hintTextColor: "gray",
+	autocorrect: false,
+	autocapitalization: false,
+	borderRadius: "5",
+}
+"#lblWelcome[platform=android formFactor=tablet]": {
+	left: 0,
+	top: 110,
+	width: 200,
+	color: "black",
+	font: {
+        fontSize: '28',
+    },
+}
+"#txtUserName[platform=android formFactor=tablet]": {
+	top: 230,
+	width: 200,
+	hintTextColor: "gray",
+	autocorrect: false,
+	autocapitalization: false,
+	borderRadius: "5",
+}
+"#txtPassword[platform=android formFactor=tablet]": {
+	top: 295,
+	width: 200,
+	hintTextColor: "gray",
+	passwordMask: true,
+	autocorrect: false,
+	autocapitalization: false,
+	borderRadius: "5",
+}
+"#swcKeepMeSignedIn[platform=android formFactor=tablet]": {
+	top: 355,	
+	style:Ti.UI.Android.SWITCH_STYLE_CHECKBOX,
+	color: "black",
+	tintColor: "gray",
+	font: {
+        fontSize: '18',
+    },
+}
+"#btnLogin[platform=android formFactor=tablet]": {
+	top: 405,
+	width: 150,
+	color: "white",
+	backgroundColor: "#407CA0",
+	borderRadius: "20",
+}
+
+
+///////////////////////////
+// iOS Style
+///////////////////////////
+
+"#activityIndicator[platform=ios]": {
+	top: -50,
+	width: "50",
+	height: "50",
+	indicatorColor: "black"
+}
+
+
+///////////////////////////
+// iOS Handheld Style
+///////////////////////////
+
+"#svScrollView[platform=ios formFactor=handheld]": {
+	top: "10%",
+	width: "80%",
+	height: "70%",
+	backgroundColor: "white",
+	opacity: ".93",
+	borderRadius: "10",
+}
+"#vwLoginView[platform=ios formFactor=handheld]": {
+	width: Ti.UI.SIZE,
+}
+"#lblProductName[platform=ios formFactor=handheld]": {
+	height: "17%",
+	width: "100%",
+	top: 0,
+	color: "white",
+	backgroundColor: "#3d4051",
+	textAlign: "center",
+	font: {
+        fontSize: '22',
+    },
+}
+"#imgAxwayLogo[platform=ios formFactor=handheld]": {
+	height: "70",
+	left: "2%",
+	top: "2%",
+	image: "/images/Axway_logo_tag_vert_rev_rgb.png",
+}
+"#lblWelcome[platform=ios formFactor=handheld]": {
+	left: 0,
+	top: "20%",
+	width: 200,
+	color: "black",
+	font: {
+        fontSize: '28',
+    },
+}
+"#txtHostIP[platform=ios formFactor=handheld]": {
+	top: "32%",
+	width: "85%",
+	height: 35,
+	borderColor: "gray",
+	backgroundColor: "white",
+	backgroundFocusedColor: "white",
+	hintText: "URL",
+	hintTextColor: "gray",
+	autocorrect: false,
+	autocapitalization: false,
+	borderRadius: "5",
+}
+"#txtUserName[platform=ios formFactor=handheld]": {
+	top: "42%",
+	width: "85%",
+	height: 35,
+	borderColor: "gray",
+	backgroundColor: "white",
+	backgroundFocusedColor: "white",
+	hintTextColor: "gray",
+	autocorrect: false,
+	autocapitalization: false,
+	borderRadius: "5",
+}
+"#txtPassword[platform=ios formFactor=handheld]": {
+	top: "52%",
+	width: "85%",
+	height: 35,
+	borderColor: "gray",
+	backgroundColor: "white",
+	backgroundFocusedColor: "white",
+	hintTextColor: "gray",
+	passwordMask: true,
+	autocorrect: false,
+	autocapitalization: false,
+	borderRadius: "5",
+}
+"#lblRememberMe[platform=ios formFactor=handheld]": {
+	left:"12.5%",
+	top: "68%",
+	width: 200,
+	color: "gray",
+	font: {
+        fontSize: '16',
+    },
+}
+"#swcKeepMeSignedIn[platform=ios formFactor=handheld]": {
+	right: "12.5%",
+	top: "67%",
+	color: "black",
+	tintColor: "gray",
+	font: {
+        fontSize: '18',
+    },
+}
+"#btnLogin[platform=ios formFactor=handheld]": {
+	top: "85%",
+	width: "70%",
+	color: "white",
+	backgroundColor: "#407CA0",
+}

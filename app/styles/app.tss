@@ -1,0 +1,27 @@
+"TextField[platform=android formFactor=tablet]": {
+	height: Ti.UI.SIZE,
+	borderColor: "black",
+	color: "black",
+	font: {
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"Label[platform=android formFactor=tablet]": {
+	color: "black",
+	font: {
+		color: "black",
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"Button[platform=android formFactor=tablet]": {
+	color: "black",
+	font: {
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
+"Switch[platform=android formFactor=tablet]": {
+	color: "black",
+	font: {
+  		fontFamily: 'OpenSans-Regular',
+  	},
+}
